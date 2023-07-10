@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: darkgrey;
+    font-size: 1.2em;
+}
+
+.navlink {
+    padding: 1em;
+}
+
+.active {
+    color: red;
+    font-weight: bold;
+}
+
+.navbar-img {
+    height: 8vh;
+    margin-left: 1rem;
+}
