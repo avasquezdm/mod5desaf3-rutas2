@@ -34,11 +34,10 @@ const Pokemones = () => {
     return (
     <div className='mt-5 text-center'>
         <h2>Selecciona un pokemon</h2>
-        <div className='col-5 col-sm-3 co-lg-2 mx-auto'>
+        <div className='col-5 col-sm-3 col-sm-4 col-lg-3 col-xxl-2 mx-auto'>
             <select
                 value={selectedPokemon}
                 className="form-select text-center"
-                style={{ widht: 200 }}
                 onChange={({ target }) => handleSelectedPokemon(target)}> 
                 <option value="" disabled> Selecciona </option>
                 {pokemones.map(({name}) => (
